@@ -1,0 +1,77 @@
+.main-header{
+    padding: 40px 0;
+}
+.masthead{
+    text-align: center;
+    color: blue;
+    font-size: calc(20px + 5vw);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    color: orange;
+    background: blue;
+    padding: 8px 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    background: blue;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.main-nav a{
+    padding: 5px 16px;
+}
+.main-nav a:hover{
+    color: darkorange;
+}
+.active{
+    background: white;
+    color: blue;
+}
+#vowel-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+}
+#root-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+}
+
+.character{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    /* max-width: 350px; */
+    /* margin: 5px auto; */
+}
+.character:nth-child(odd){
+    background: blue;
+}
+.character:nth-child(even){
+    background: orange;
+}
+.nepali{
+    text-align: center;
+    font-size: calc(6vw + 16px);
+    color: white;
+}
+.english{
+    position: absolute;
+    top: 0;
+    color: lightblue;
+    font-size: calc(2vw + 16px)
+}
+.letter-sound audio{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 80px;
+}
